@@ -273,6 +273,13 @@ footer {
         float: 1eft;
         padding: 0;
     }
+    	
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 
     hr{
         display: none;
@@ -313,4 +320,15 @@ footer {
          padding-left: 20px;
          padding-right: 20px;
      } 
+
+     #photos {
+         column-count: 3;
+     }
+}
+
+/* for small screens of 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
